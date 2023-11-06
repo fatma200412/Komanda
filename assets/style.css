@@ -4,10 +4,45 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 0px;
 }
-.first .box {
-  border: 1px solid black;
+.first .boxFirst {
+  width: 400px;
+  height: 100px;
+  display: flex;
+  margin-left: 100px;
+}
+
+.first .boxSecond {
+  width: 400px;
+  height: 100px;
+  display: flex;
+}
+.first .boxFirst .box1 {
+  border: 2px solid black;
   width: 100px;
   height: 100px;
+  margin-right: 60px;
+  background-color: brown;
+}
+.first .boxFirst .box2 {
+  border: 2px solid black;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
+.first .boxSecond .box1 {
+  border: 2px solid black;
+  width: 100px;
+  height: 100px;
+  margin-right: 60px;
+  background-color: lightgreen;
+}
+
+.first .boxSecond .box2 {
+  border: 2px solid black;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(12, 186, 244);
 }
