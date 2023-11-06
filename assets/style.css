@@ -1,0 +1,13 @@
+.first {
+  border: 2px solid black;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.first .box {
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+}
